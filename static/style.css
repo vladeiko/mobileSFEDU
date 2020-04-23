@@ -1,0 +1,322 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+@media screen and (max-width: 1030px)and (max-height: 1366px) {
+    .headerstyle{
+        height: 34vh;
+        width: auto;
+        background: url(img/header.png) ;
+        background-size: cover;
+    }
+    
+    .fontHeader{
+        display: block;
+        color: whitesmoke;
+        font-size: 5.4vw;
+        margin: 0;
+       margin-top: 10%;
+       margin-left: 40%;
+        padding-right:10px;
+    }
+    .sfeduLogo{
+        margin-top: 5px;
+        margin-left: 5px;
+        left: 0px;
+        width: 20vh;
+    }
+    .changeLanguageButton{
+       
+        right: 0;
+        padding: 10px;
+        border: none;
+        background-color: transparent;
+        color: whitesmoke;
+        font-size: 1.5vh;
+    }
+    .topPageElement{
+        display: flex;
+        justify-content: space-between;
+    }
+    .navPanel{
+        font-size: 4vw;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20%;
+    }
+    @media screen and (min-width: 450px) {
+        .navPanel{
+           margin-top: 10%;
+        }
+    }
+    .navButton{
+        color: white;
+        text-decoration: none;
+        font:20px;
+    }
+    .aboutUsContainerStyle{
+        height: 33vh;
+        width: auto;
+        background: url(img/FON.png) ;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .aboutUs{
+      color: whitesmoke;  
+      text-align: center;
+      margin-left:  10px;
+      margin-right:  10px;
+      font-size: 4vw;
+      margin-top: 0;
+    }
+   
+    .newsBackground{
+      
+        
+        width: auto;
+        background-color:white;
+    }
+    .newsTitle{
+      color: #4A69B6; 
+      text-align: center;
+      margin-left:  10px;
+      margin-right:  10px;
+      font-size: 4vw;
+      margin-top: 0;
+      padding-top:20px;
+      margin-bottom: 0;
+    }
+    hr{
+        border: none; /* Убираем границу */
+        background-color: blueviolet; /* Цвет линии */
+        color:blueviolet; /* Цвет линии для IE6-7 */
+        height: 2px; /* Толщина линии */
+        width: 100px;
+       
+    }
+    .firstNews{
+        height: 30vw;
+        width: 50vw;
+        background: url(img/newsIco.png) ;
+        background-size: cover;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 5%;
+        
+    }
+    .secondNews{
+        height: 30vw;
+        width: 50vw;
+        background: url(img/newsIco1.jpg) ;
+        background-size: cover;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        margin-left: 50%;
+        margin-top: 10%;
+    }
+    .news{
+       
+        padding: 10px;
+        border: none;
+        background-color: rgba(156, 179, 227, 0.4);
+        background-size: cover;
+        color: whitesmoke;
+        padding:5px 0px;
+        font-size: 1.5vh; 
+        text-decoration: none;
+    } 
+    .partnersTitle{
+        color: #4A69B6; 
+        text-align: center;
+        margin-left:  10px;
+        margin-right:  10px;
+        font-size: 4vw;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .partnersLine{
+        border: none; /* Убираем границу */
+        background-color: #3872B5; /* Цвет линии */
+        color:#3872B5; /* Цвет линии для IE6-7 */
+        height: 2px; /* Толщина линии */
+        width: 100px;
+        margin-bottom: 0;
+        margin-top: 5%;
+    }
+    @media screen and (max-width: 850px) {
+                .newsBackground{
+                    height: 42vh;
+                }
+            }
+    @media screen and (max-width: 670px) {
+        .newsBackground{
+           height: 52vh;
+        }
+    } 
+    @media screen and (max-width: 800px) {
+        .newsBackground{
+           height: 42vh;
+        }
+    }
+   
+    @media screen and (min-height: 400px) {
+        .newsBackground{
+           height: 50vh;
+        }
+    }
+    @media screen and (min-height: 800px) {
+        .newsBackground{
+           height: 40vh;
+        }
+    }
+    @media screen and (min-width: 700px) {
+        .newsBackground{
+           height: 63vh;
+        }
+        .partner1Pic, .partner2Pic, .partner3Pic{
+            height: 35vh;
+            width: 23vh;
+        }
+    }
+    @media screen and (min-height: 1000px) {
+        .partner1Pic, .partner2Pic, .partner3Pic{
+            height: 55vh;
+            width: 33vh;
+        }
+        .feedbackForm{
+            padding-left: 50%;
+        }
+    }
+    .partnerFlex{
+        margin-top: 10%;
+        height: 13vh;
+        width: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    .partner1Pic{
+        height: 15vh;
+        width: 13vh;
+        background-image: url(img/van.jpg);
+        background-size: cover;
+        background-color: #EBDEDE ;
+        vertical-align: bottom;
+        color: white;
+        margin-top:5% ;
+    }
+    .partner2Pic{
+        height: 15vh;
+        width: 13vh;
+        background-image: url(img/billi.jpg);
+        background-size: cover;
+        background-color: #EBDEDE ;
+        vertical-align: bottom;
+        color: white;
+        margin-top:5% ;
+    }
+    .partner3Pic{
+        height: 15vh;
+        width: 13vh;
+        background-image: url(img/khabib.png);
+        background-size: cover;
+        background-color: #EBDEDE ;
+        vertical-align: bottom;
+        color: white;
+        margin-top:5% ;
+    }
+    .blueLine{
+        height: 10vh;
+        width: auto;
+        background-color: #3872B5 ;
+    }
+    .feedbackBackground{
+        height: auto;
+        background-image: url(img/footerFone.jpg.png);
+        background-size: cover;
+    }
+    .contacts{
+        color: #ffffff; 
+        text-align: center;
+        margin-left:  10px;
+        margin-right:  10px;
+        font-size: 2vh;
+        margin-top: 0;
+        padding-top:20px;
+        margin-bottom: 0;
+      }
+  
+    .feedbackForm{
+        box-sizing: border-box;
+        flex-grow: 4;
+        padding-left: 10%;
+    }
+    .feedbackInput{
+        color: #808080; 
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid #808080;
+    }
+    .inputStyle{
+        color: #ffffff;
+        font-size: 1.5vh;
+    }
+    .feedbackflex{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        vertical-align: middle;
+    }
+    .addressStyle{
+        padding-left: 20px;
+        color: #ffff;
+        font-size: 1.5vh;
+    }
+    .sendButt{
+        color: #808080;
+        background-color: aqua;
+        font-size: 1.5vh;
+        margin-left: 75%;
+    }
+    @media screen and (min-height: 1000px) {
+
+        .feedbackForm{
+            padding-left: 30%;
+        }
+        .sendButt{
+            margin-left: 52%;
+        }
+        .inputStyle {
+            font-size: 3vh;
+        }
+        .feedbackInput,  .addressStyle, .sendButt{
+            font-size: 2vh;
+        }
+        .contacts{
+            font-size: 3.5vh;
+
+        }
+        
+    }
+
+    .marginTop{
+        margin-top: 5%;
+    }
+    .txtArea{
+        width: 70%;
+        height: 10vh;
+    }
+    .newsLink{
+       text-decoration: none;
+       color: #ffffff;
+    }
+
+     /* \\\\\\ */
+    
+      
+    /* \\\\\\ */
+}
