@@ -2,3 +2,90 @@
     margin: 0;
     padding: 0;
 }
+.sfeduLogoNews{
+    margin-top: 5px;
+    margin-left: 5px;
+    left: 0px;
+    width: 10vh;
+}
+.ictisLogoNews{
+    margin-top: 5px;
+    margin-left: 5px;
+    left: 0px;
+    height: 13vh;
+}
+.changeLanguageButtonNews{
+    right: 0;
+    padding: 10px;
+    padding-top: 10px;
+    border: none;
+    background-color: transparent;
+    color: black;
+    font-size: 1.5vh;
+}
+.topPageElementNews{
+    display: flex;
+    justify-content: space-between;
+    margin-left:  20px;
+    margin-right:  10px;
+}
+.fontHeaderNews{
+    display: block;
+    color: black;
+    font-size: 4.4vw;
+    text-align: center;
+}
+.backgroundFontHeaderNews{
+    padding: 20px;
+    margin: 20px 0 ;
+    width: 100wv;
+    background-color: rgba(128, 128, 128, 0.071);
+    border-radius: 5px;
+}
+.wraper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.NewsPic{
+   width: 80vw;
+    height: auto;
+    background-size:cover ;
+    margin: auto;
+    border: 1px solid rgba(128, 128, 128, 0.071);
+    border-radius: 5px;
+}
+.newsTxt{
+    margin-top: 5%;
+    font-family: "NotoSans",Arial,sans-serif;
+    text-align: start;
+    font-size: 2vh;
+}
+.styleNews{
+    margin-top: 5%;
+}
+.contacts{
+    color: black; 
+    text-align: center;
+    margin-left:  10px;
+    margin-right:  10px;
+    font-size: 2vh;
+    margin-top: 0;
+    padding-top:20px;
+    margin-bottom: 0;
+  }
+  .addressStyle{
+    padding-left: 20px;
+    color: black;
+    font-size: 1.5vh;
+}
+.backgroundCont{
+    border-radius: 5px;
+    margin: 20px 0 0 0 ;
+    width: 100wv;
+    background-color: rgba(128, 128, 128, 0.071);
+}
+.NewsTitle{
+    font-size: 3vh;
+}

@@ -200,8 +200,8 @@ body{
     }
     .partner1Pic{
         height: 15vh;
-        width: 13vh;
-        background-image: url(img/van.jpg);
+        width: 16vh;
+        background-image: url(img/partner1.jpg);
         background-size: cover;
         background-color: #EBDEDE ;
         vertical-align: bottom;
@@ -210,8 +210,8 @@ body{
     }
     .partner2Pic{
         height: 15vh;
-        width: 13vh;
-        background-image: url(img/billi.jpg);
+        width: 16vh;
+        background-image: url(img/partner2.jpg);
         background-size: cover;
         background-color: #EBDEDE ;
         vertical-align: bottom;
@@ -220,8 +220,8 @@ body{
     }
     .partner3Pic{
         height: 15vh;
-        width: 13vh;
-        background-image: url(img/khabib.png);
+        width: 17vh;
+        background-image: url(img/partner3.jpg);
         background-size: cover;
         background-color: #EBDEDE ;
         vertical-align: bottom;
@@ -278,7 +278,7 @@ body{
     }
     .sendButt{
         color: #808080;
-        background-color: aqua;
+        background-color: white;
         font-size: 1.5vh;
         margin-left: 75%;
     }
