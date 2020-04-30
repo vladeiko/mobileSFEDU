@@ -27,7 +27,7 @@ body{
         margin-top: 5px;
         margin-left: 5px;
         left: 0px;
-        width: 20vh;
+        width: 30vw;
     }
     .changeLanguageButton{
        
@@ -37,6 +37,7 @@ body{
         background-color: transparent;
         color: whitesmoke;
         font-size: 1.5vh;
+        text-decoration: none;
     }
     .topPageElement{
         display: flex;
@@ -46,7 +47,7 @@ body{
         font-size: 4vw;
         display: flex;
         justify-content: space-around;
-        margin-top: 13vh;
+        margin-top: 12vh;
     }
     
     .navButton{
@@ -165,8 +166,8 @@ body{
     }
     .partnersLine{
         border: none; /* Убираем границу */
-        background-color: #3872B5; /* Цвет линии */
-        color:#3872B5; /* Цвет линии для IE6-7 */
+        background-color: blueviolet; /* Цвет линии */
+        color:blueviolet; /* Цвет линии для IE6-7 */
         height: 2px; /* Толщина линии */
         width: 100px;
         margin-bottom: 0;
@@ -190,7 +191,7 @@ body{
         }
     }
     .partnerFlex{
-        margin-top: 10%;
+        
         height: 13vh;
         width: auto;
         display: flex;
@@ -204,7 +205,7 @@ body{
         background-color: #EBDEDE ;
         vertical-align: bottom;
         color: white;
-        margin-top:5% ;
+        margin-top: 10%;
         border: 1px solid white;
         border-radius: 15px;
     }
@@ -216,7 +217,7 @@ body{
         background-color: #EBDEDE ;
         vertical-align: bottom;
         color: white;
-        margin-top:5% ;
+        margin-top: 10%;
         border: 1px solid white;
         border-radius: 15px;
     }
@@ -228,11 +229,12 @@ body{
         background-color: #EBDEDE ;
         vertical-align: bottom;
         color: white;
-        margin-top:5% ;
+        margin-top: 10%;
         border: 1px solid white;
         border-radius: 15px;
     }
     .blueLine{
+      
         height: 10vh;
         width: auto;
         background-color: #3872B5 ;
@@ -322,7 +324,7 @@ body{
 
     .footerbackground{
         background-color:#3872B5;
-        height: 10vh;
+        height: 20vh;
         width: auto;
         display: flex;
         justify-content: space-evenly;
@@ -332,11 +334,14 @@ body{
         font-weight: bold;
     }
     .soc{
+        margin-top: 180%;
         height: 5vh;
         width: auto;
+        filter: invert(1);
+      
     }
     .linkStyleSpecial{
-        color: #3872B5;
+        color: #4A69B6;
         text-decoration: none;
     }
      /* \\\\\\ */
